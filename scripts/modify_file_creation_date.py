@@ -1,5 +1,5 @@
 # This script modifies the creation date of all the files in a folder.
-# The files have the following name structure "NAME_DATE(MMDDYY)_TIME.extension"
+# The files have the following name structure "NAME_DATE(MMDDYY)_TIME(HHMMSS).extension"
 # The Date and Time are extracted out of the name and assigned as the new Creation Date for the file.
 
 import os, os.path, sys, time, datetime, re
